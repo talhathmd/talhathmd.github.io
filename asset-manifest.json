@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.33874070.css",
-    "main.js": "/static/js/main.1500e0c0.js",
-    "static/media/propic.jpg": "/static/media/propic.be5af505b7f54de0cce0.jpg",
-    "static/media/Resume April 01.23.pdf": "/static/media/Resume April 01.23.77b2a5d25ab044fbcd61.pdf",
+    "main.css": "/static/css/main.13c9f4ce.css",
+    "main.js": "/static/js/main.0f260202.js",
+    "static/media/talhaheadshot.jpg": "/static/media/talhaheadshot.6b1f440f46bdf109a0eb.jpg",
     "index.html": "/index.html",
-    "main.33874070.css.map": "/static/css/main.33874070.css.map",
-    "main.1500e0c0.js.map": "/static/js/main.1500e0c0.js.map"
+    "main.13c9f4ce.css.map": "/static/css/main.13c9f4ce.css.map",
+    "main.0f260202.js.map": "/static/js/main.0f260202.js.map"
   },
   "entrypoints": [
-    "static/css/main.33874070.css",
-    "static/js/main.1500e0c0.js"
+    "static/css/main.13c9f4ce.css",
+    "static/js/main.0f260202.js"
   ]
 }
