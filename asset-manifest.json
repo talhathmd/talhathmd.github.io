@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.29be4d67.css",
-    "main.js": "/static/js/main.47c9a0c4.js",
+    "main.js": "/static/js/main.e21e408b.js",
     "static/media/talhaheadshot.jpg": "/static/media/talhaheadshot.12fd9f32184d2a8a1759.jpg",
     "static/media/Talha_Tahmid_Resume.pdf": "/static/media/Talha_Tahmid_Resume.2154f191df99bac09601.pdf",
     "index.html": "/index.html",
     "main.29be4d67.css.map": "/static/css/main.29be4d67.css.map",
-    "main.47c9a0c4.js.map": "/static/js/main.47c9a0c4.js.map"
+    "main.e21e408b.js.map": "/static/js/main.e21e408b.js.map"
   },
   "entrypoints": [
     "static/css/main.29be4d67.css",
-    "static/js/main.47c9a0c4.js"
+    "static/js/main.e21e408b.js"
   ]
 }
