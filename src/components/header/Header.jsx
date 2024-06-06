@@ -28,6 +28,11 @@ const Header = () => {
                 <i className="uil uil-scenery nav__icon"></i> Qualification
               </a>
             </li>
+            <li className="nav__item">
+              <a href="#projects" className="nav__link">
+                <i className="uil uil-scenery nav__icon"></i> Projects
+              </a>
+            </li>
           </ul>
 
           <i class="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>

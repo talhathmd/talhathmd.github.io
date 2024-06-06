@@ -80,6 +80,14 @@
     transform: translate(6px, -7px);
 }
 
+.qualification__link {
+    color: var(--text-color);
+}
+
+.qualification__link:hover {
+    color: var(--title-color-dark);
+}
+
 @media  screen and (max-width: 992px) {
    .qualification__container {
     margin-left: auto;

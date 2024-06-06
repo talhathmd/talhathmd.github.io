@@ -74,7 +74,7 @@ const Data = () => {
         <p className="home__description">Hey! I am {aboutText} 
         </p>
 
-        <a href={Resume} className="button button--flex" without rel="noopener noreferrer" target="_blank">Resume 
+        <a href={Resume} className="button button--flex" without rel="noopener noreferrer" target="_blank" alt="Talha Tahmid Resume">Resume 
         <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

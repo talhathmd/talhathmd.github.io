@@ -11,7 +11,7 @@ const Qualification = () => {
   return (
     <section className="qualification section" id="qualification">
         <h2 className="section__title">Qualification</h2>
-        <span className="section__subtitle"></span>
+        <span className="section__subtitle">Select between Education and Experience ↓</span>
 
         <div className="qualification__container container">
             <div className="qualification__tabs">
@@ -81,7 +81,32 @@ const Qualification = () => {
                 </div>
 
                 <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
+                    
                     <div className="qualification__data">
+                       
+                            <div>
+                                <h3 className="qualification__title">React Native Developer</h3>
+                                <a href="https://qweek.ai/" target="_blank" rel="noreferrer" className="qualification__link"><span className="qualification__subtitle">Qweek.ai</span></a>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> Jan, 2024 - Present
+                                </div>
+                            </div>
+                            
+                            <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                    </div>
+
+
+
+                    <div className="qualification__data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
                         <div>
                             <h3 className="qualification__title">Web Developer</h3>
                             <span className="qualification__subtitle">The Office of the Vice President of Student Affairs - UTA</span>
@@ -89,21 +114,13 @@ const Qualification = () => {
                                 <i className="uil uil-calendar-alt"></i> May, 2023 - Present
                             </div>
                         </div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
+                        
                     </div>
 
                     
 
                     <div className="qualification__data">
-                        <div></div>
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
+                        
                         
                         <div>
                             <h3 className="qualification__title">Student Assistant</h3>
@@ -113,21 +130,27 @@ const Qualification = () => {
                             
                             </div>
                         </div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
                     </div>
 
                     <div className="qualification__data">
+                        <div></div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
                         <div>
                             <h3 className="qualification__title">Founder, President</h3>
-                            <span className="qualification__subtitle">Nawabganj Government College Robotics Group</span>
+                            <span className="qualification__subtitle">High School Robotics Group</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> Aug, 2019 - Nov, 2021
                             </div>
                         </div>
 
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
+                        
                     </div>
 
                 </div>
