@@ -1,7 +1,7 @@
 import React from 'react'
 import "./projects.css"
 import cbreproject from '../../assets/cbreproject.jpeg'
-import srsproject from '../../assets/srsproj.png'
+import srsproject from '../../assets/srs_logo.jpeg'
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
     <div className="projects__container container grid">
         <div className="projects__content">
             <h3 className="projects__title">CBRE Asset Condition Monitor</h3>
-            <img alt="CBRE Project"src={cbreproject} className='projects__img'></img>
+            <img alt="CBRE Project" src={cbreproject} className='projects__img'></img>
 
             <div className='project__links'>
             <a href="https://github.com/atiqurx/cbre_asset_condition_monitor" className="button button--flex" 
@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
         <div className="projects__content">
             <h3 className="projects__title">Service Request System (SRS)</h3>
-            <img alt="CBRE Project"src={srsproject}></img>
+            <img alt="CBRE Project" src={srsproject} className='projects__img'></img>
             <div className='project__links'>
             <a href="https://github.com/talhathmd" className="button button--flex" 
             without rel="noopener noreferrer" target="_blank" alt="Github Link to Project">GitHub</a>

@@ -68,6 +68,10 @@
     color: white;
 }
 
+.projects__img {
+    border-radius: 1rem;
+}
+
 @media  screen and (max-width: 992px) {
    .projects__container {
     grid-template-columns: max-content;
