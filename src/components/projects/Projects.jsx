@@ -25,7 +25,7 @@ const Projects = () => {
             <h3 className="projects__title">Service Request System (SRS)</h3>
             <img alt="CBRE Project" src={srsproject} className='projects__img'></img>
             <div className='project__links'>
-            <a href="https://github.com/talhathmd" className="button button--flex" 
+            <a href="https://github.com/atiqurx/service-request-system/tree/main" className="button button--flex" 
             without rel="noopener noreferrer" target="_blank" alt="Github Link to Project">GitHub</a>
             </div>
         </div>

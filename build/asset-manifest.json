@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a11ff46e.css",
-    "main.js": "/static/js/main.a966a69c.js",
+    "main.css": "/static/css/main.99a5f6b3.css",
+    "main.js": "/static/js/main.f1f79f0b.js",
     "static/media/talhaheadshot.jpg": "/static/media/talhaheadshot.12fd9f32184d2a8a1759.jpg",
     "static/media/Talha_Tahmid_Resume.pdf": "/static/media/Talha_Tahmid_Resume.2154f191df99bac09601.pdf",
-    "static/media/srsproj.png": "/static/media/srsproj.bf2a863a79a46da2fdc3.png",
+    "static/media/srs_logo.jpeg": "/static/media/srs_logo.8e96af70069a1ce39096.jpeg",
     "index.html": "/index.html",
-    "main.a11ff46e.css.map": "/static/css/main.a11ff46e.css.map",
-    "main.a966a69c.js.map": "/static/js/main.a966a69c.js.map"
+    "main.99a5f6b3.css.map": "/static/css/main.99a5f6b3.css.map",
+    "main.f1f79f0b.js.map": "/static/js/main.f1f79f0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a11ff46e.css",
-    "static/js/main.a966a69c.js"
+    "static/css/main.99a5f6b3.css",
+    "static/js/main.f1f79f0b.js"
   ]
 }
