@@ -2,6 +2,7 @@ import React from 'react'
 import "./projects.css"
 import cbreproject from '../../assets/cbreproject.jpeg'
 import srsproject from '../../assets/srs_logo.jpeg'
+import trasvaproject from '../../assets/trasva_project.png'
 
 const Projects = () => {
   return (
@@ -29,7 +30,17 @@ const Projects = () => {
             without rel="noopener noreferrer" target="_blank" alt="Github Link to Project">GitHub</a>
             </div>
         </div>
+        <div className="projects__content">
+            <h3 className="projects__title">Trasva</h3>
+            <img alt="CBRE Project" src={trasvaproject} className='projects__img'></img>
+            <div className='project__links'>
+            <a href="https://trasva.com" className="button button--flex" 
+            without rel="noopener noreferrer" target="_blank" alt="Website Link to Project">Website</a>
+            </div> 
+        </div>
     </div>
+    
+     
     
 </section>
   )
