@@ -3,6 +3,7 @@ import "./projects.css"
 import cbreproject from '../../assets/cbreproject.jpeg'
 import srsproject from '../../assets/srs_logo.jpeg'
 import trasvaproject from '../../assets/trasva_project.png'
+import acmlogo from '../../assets/acmlogo.png'
 
 const Projects = () => {
   return (
@@ -10,6 +11,18 @@ const Projects = () => {
     <h2 className="section__title">Projects</h2>
     <span className="section__subtitle">Showcasing My Recent Work and Accomplishments</span>
     <div className="projects__container container grid">
+    <div className="projects__content">
+            <h3 className="projects__title">ACM UTA Website</h3>
+            <img alt="ACM UTA Website" src={acmlogo} className='projects__img'></img>
+
+            <div className='project__links'>
+            <a href="https://github.com/talhathmd/acmuta-site" className="button button--flex" 
+            without rel="noopener noreferrer" target="_blank" alt="Github Link to Project">GitHub</a>
+            <a href="https://acmuta.com" className="button button--flex devpost-button" 
+            without rel="noopener noreferrer" target="_blank" alt="Devpost Link to Project">Website</a>
+            </div>
+            
+        </div>
         <div className="projects__content">
             <h3 className="projects__title">CBRE Asset Condition Monitor</h3>
             <img alt="CBRE Project" src={cbreproject} className='projects__img'></img>
