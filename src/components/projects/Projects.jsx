@@ -4,6 +4,7 @@ import cbreproject from '../../assets/cbreproject.jpeg'
 import srsproject from '../../assets/srs_logo.jpeg'
 import trasvaproject from '../../assets/trasva_project.png'
 import acmlogo from '../../assets/acmlogo.png'
+import goblinproject from '../../assets/goblin.png'
 
 const Projects = () => {
   return (
@@ -22,6 +23,16 @@ const Projects = () => {
             without rel="noopener noreferrer" target="_blank" alt="Devpost Link to Project">Website</a>
             </div>
             
+        </div>
+        <div className="projects__content">
+            <h3 className="projects__title">Goblin</h3>
+            <img alt="Goblin Project" src={goblinproject} className='projects__img'></img>
+            <div className='project__links'>
+            <a href="https://github.com/atiqurx/goblin" className="button button--flex" 
+            without rel="noopener noreferrer" target="_blank" alt="Website Link to Project">Github</a>
+            <a href="https://gob-lin-bkeneab8ccdmhhda.centralus-01.azurewebsites.net" className="button button--flex devpost-button" 
+            without rel="noopener noreferrer" target="_blank" alt="Website Link to Project">Website</a>
+            </div> 
         </div>
         <div className="projects__content">
             <h3 className="projects__title">CBRE Asset Condition Monitor</h3>
