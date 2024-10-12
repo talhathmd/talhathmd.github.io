@@ -5,6 +5,7 @@ import srsproject from '../../assets/srs_logo.jpeg'
 import trasvaproject from '../../assets/trasva_project.png'
 import acmlogo from '../../assets/acmlogo.png'
 import goblinproject from '../../assets/goblin.png'
+import legalai from '../../assets/legalai.png'
 
 const Projects = () => {
   return (
@@ -48,7 +49,7 @@ const Projects = () => {
         </div>
         <div className="projects__content">
             <h3 className="projects__title">Service Request System (SRS)</h3>
-            <img alt="CBRE Project" src={srsproject} className='projects__img'></img>
+            <img alt="Service Request System (SRS)" src={srsproject} className='projects__img'></img>
             <div className='project__links'>
             <a href="https://github.com/atiqurx/service-request-system/tree/main" className="button button--flex" 
             without rel="noopener noreferrer" target="_blank" alt="Github Link to Project">GitHub</a>
@@ -56,10 +57,18 @@ const Projects = () => {
         </div>
         <div className="projects__content">
             <h3 className="projects__title">Trasva</h3>
-            <img alt="CBRE Project" src={trasvaproject} className='projects__img'></img>
+            <img alt="Trasva" src={trasvaproject} className='projects__img'></img>
             <div className='project__links'>
             <a href="https://trasva.com" className="button button--flex" 
             without rel="noopener noreferrer" target="_blank" alt="Website Link to Project">Website</a>
+            </div> 
+        </div>
+        <div className="projects__content">
+            <h3 className="projects__title">LegalAI</h3>
+            <img alt="CBRE Project" src={legalai} className='projects__img'></img>
+            <div className='project__links'>
+            <a href="https://github.com/talhathmd/legalAI" className="button button--flex" 
+            without rel="noopener noreferrer" target="_blank" alt="Website Link to Project">Github</a>
             </div> 
         </div>
     </div>
