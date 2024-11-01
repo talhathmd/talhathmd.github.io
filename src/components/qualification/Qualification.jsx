@@ -105,7 +105,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">React Native Developer</h3>
                                 <a href="https://qweek.ai/" target="_blank" rel="noreferrer" className="qualification__link"><span className="qualification__subtitle">Qweek.ai</span></a>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> Jan, 2024 - Present
+                                    <i className="uil uil-calendar-alt"></i> Jan, 2024 - Sep, 2024
                                 </div>
                             </div>
                             
