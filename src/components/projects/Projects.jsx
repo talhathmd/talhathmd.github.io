@@ -6,6 +6,8 @@ import trasvaproject from '../../assets/trasva_project.png'
 import acmlogo from '../../assets/acmlogo.png'
 import goblinproject from '../../assets/goblin.png'
 import legalai from '../../assets/legalai.png'
+import mavgrades from '../../assets/mavgrades.png'
+import billsplit from '../../assets/billsplit.png'
 
 const Projects = () => {
   return (
@@ -13,17 +15,39 @@ const Projects = () => {
     <h2 className="section__title">Projects</h2>
     <span className="section__subtitle">Showcasing My Recent Work and Accomplishments</span>
     <div className="projects__container container grid">
-    <div className="projects__content">
+        <div className="projects__content">
+            <h3 className="projects__title">MavGrades</h3>
+            <img alt="MavGrades" src={mavgrades} className='projects__img'></img>
+
+            <div className='project__links'>
+            <a href="https://github.com/acmuta/mavgrades" className="button button--flex" 
+            without rel="noopener noreferrer" target="_blank" alt="Github Link to Project">GitHub</a>
+            <a href="https://www.mavgrades.com" className="button button--flex devpost-button" 
+            without rel="noopener noreferrer" target="_blank" alt="Website Link to Project">Website</a>
+            </div>
+            
+        </div>
+        <div className="projects__content">
             <h3 className="projects__title">ACM UTA Website</h3>
             <img alt="ACM UTA Website" src={acmlogo} className='projects__img'></img>
 
             <div className='project__links'>
-            <a href="https://github.com/talhathmd/acmuta-site" className="button button--flex" 
+            <a href="https://github.com/acmuta/acmuta-site" className="button button--flex" 
             without rel="noopener noreferrer" target="_blank" alt="Github Link to Project">GitHub</a>
             <a href="https://acmuta.com" className="button button--flex devpost-button" 
-            without rel="noopener noreferrer" target="_blank" alt="Devpost Link to Project">Website</a>
+            without rel="noopener noreferrer" target="_blank" alt="Website Link to Project">Website</a>
             </div>
-            
+        </div>
+        <div className="projects__content">
+            <h3 className="projects__title">BillSplit</h3>
+            <img alt="BillSplit" src={billsplit} className='projects__img'></img>
+
+            <div className='project__links'>
+            <a href="https://github.com/talhathmd/billsplit-team3" className="button button--flex" 
+            without rel="noopener noreferrer" target="_blank" alt="Github Link to Project">GitHub</a>
+            <a href="https://billsplit-two.vercel.app" className="button button--flex devpost-button" 
+            without rel="noopener noreferrer" target="_blank" alt="Website Link to Project">Website</a>
+            </div>
         </div>
         <div className="projects__content">
             <h3 className="projects__title">Goblin</h3>
