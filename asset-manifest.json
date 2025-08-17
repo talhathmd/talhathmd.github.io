@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.99a5f6b3.css",
-    "main.js": "/static/js/main.01430e34.js",
+    "main.js": "/static/js/main.dc514a33.js",
     "static/media/mavgrades.png": "/static/media/mavgrades.aac4d2cc6f5f61edee8d.png",
     "static/media/trasva_project.png": "/static/media/trasva_project.dc113bb4fe613b380c90.png",
     "static/media/talhaheadshot.jpg": "/static/media/talhaheadshot.12fd9f32184d2a8a1759.jpg",
     "static/media/legalai.png": "/static/media/legalai.1411265501a914079ebb.png",
-    "static/media/Talha_Tahmid_Resume.pdf": "/static/media/Talha_Tahmid_Resume.2a97e031e0763f388ecc.pdf",
+    "static/media/Talha_Tahmid_Resume.pdf": "/static/media/Talha_Tahmid_Resume.55955a4f1a844fd621d5.pdf",
     "static/media/acmlogo.png": "/static/media/acmlogo.1504ffccfac2ecd58c5f.png",
     "static/media/goblin.png": "/static/media/goblin.5908ddad2e2344fea390.png",
     "static/media/billsplit.png": "/static/media/billsplit.c8ccb1532cf3dba5a9c8.png",
     "static/media/srs_logo.jpeg": "/static/media/srs_logo.8e96af70069a1ce39096.jpeg",
     "index.html": "/index.html",
     "main.99a5f6b3.css.map": "/static/css/main.99a5f6b3.css.map",
-    "main.01430e34.js.map": "/static/js/main.01430e34.js.map"
+    "main.dc514a33.js.map": "/static/js/main.dc514a33.js.map"
   },
   "entrypoints": [
     "static/css/main.99a5f6b3.css",
-    "static/js/main.01430e34.js"
+    "static/js/main.dc514a33.js"
   ]
 }
